@@ -43,12 +43,10 @@ public class A476_Number_Complement {
         int add = 1;
         int num = 0;
         for (int i = numberS.length() - 1; i >= 0; i--){
-            if (numberS.charAt(i) == '1'){
+            if (numberS.charAt(i) == '1') {
                 num += add;
-                add *= 2;
-            }else{
-                add *= 2;
             }
+            add *= 2;
         }
         return num;
     }
