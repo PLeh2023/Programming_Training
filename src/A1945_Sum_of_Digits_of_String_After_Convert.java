@@ -48,8 +48,8 @@ public class A1945_Sum_of_Digits_of_String_After_Convert {
     public static String sumOfDigits(String s){
         int sum = 0;
         for (int i = 0; i < s.length(); i++){
-            sum += Integer.parseInt(STR."\{s.charAt(i)}");
+            sum += Integer.parseInt(""+s.charAt(i));
         }
-        return STR."\{sum}";
+        return "" + sum;
     }
 }

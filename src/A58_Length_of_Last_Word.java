@@ -9,9 +9,9 @@ public class A58_Length_of_Last_Word {
         String character = "\\w";
         String space = " ";
         for (int i = 0; i < s.length(); i++){
-            if ((STR."\{s.charAt(i)}").matches(character) && breaker == -1){
+            if (("" +s.charAt(i)).matches(character) && breaker == -1){
                 lengthCounter++;
-            }else if((STR."\{s.charAt(i)}").matches(space)){
+            }else if(("" +s.charAt(i)).matches(space)){
                 breaker = 0;
             }else {
                 lengthCounter = 1;

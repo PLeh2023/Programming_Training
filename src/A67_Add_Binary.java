@@ -1,4 +1,4 @@
-public class A67_Add_Binary {
+/*public class A67_Add_Binary {
     public static void main(String[] args) {
         String a = "11";
         String b = "1";
@@ -49,3 +49,4 @@ public class A67_Add_Binary {
         return z;
     }
 }
+*/

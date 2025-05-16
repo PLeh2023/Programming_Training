@@ -1,5 +1,5 @@
 import java.util.Objects;
-
+/*
 public class A273_Integer_to_English_Words {
     public static void main(String[] args) {
        int num = 1000;
@@ -200,3 +200,4 @@ public class A273_Integer_to_English_Words {
         return output;
     }
 }
+*/
